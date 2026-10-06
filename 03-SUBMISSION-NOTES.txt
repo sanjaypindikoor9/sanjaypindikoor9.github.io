@@ -1,0 +1,25 @@
+ACTIVITY 12 SUBMISSION NOTES
+
+1. 01-Portfolio-Brief.docx
+   - 1–2 page portfolio brief covering profile, Activities 1–4 context, projects, skills, goal, and design preferences.
+
+2. 02-Prompt-Log-and-Reflection.docx
+   - Initial generation prompt.
+   - Four follow-up refinement prompts.
+   - One-line before/after change notes.
+   - Final reflection.
+
+3. index.html
+   - Final self-contained portfolio page.
+   - Upload this file as index.html to the root of the <username>.github.io repository.
+
+GitHub profile:
+https://github.com/sanjaypindikoor9
+
+Repositories:
+https://github.com/sanjaypindikoor9/First-C-Program
+https://github.com/sanjaypindikoor9/LineEditor
+https://github.com/sanjaypindikoor9/leetcode-solutions
+
+Publishing:
+Create/open the repository named sanjaypindikoor9.github.io, choose Add file -> Upload files, upload index.html, and commit the change. Then wait for GitHub Pages to build the site.
