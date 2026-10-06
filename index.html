@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Portfolio of P. Sanjay, 3rd Semester B.Tech CSE student.">
+<title>P. Sanjay | CSE Portfolio</title>
+<style>
+:root{--bg:#0b1020;--card:#121a2f;--text:#eef2ff;--muted:#aeb8d0;--accent:#7dd3fc;--accent2:#a78bfa;--line:#273250}
+*{box-sizing:border-box;scroll-behavior:smooth}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:linear-gradient(135deg,var(--bg),#111827);color:var(--text);line-height:1.6}
+a{color:inherit;text-decoration:none}
+.container{width:min(1050px,92%);margin:auto}
+nav{position:sticky;top:0;z-index:10;background:rgba(11,16,32,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.navbar{display:flex;justify-content:space-between;align-items:center;padding:16px 0}
+.logo{font-weight:800;font-size:1.15rem}
+.navlinks{display:flex;gap:20px;flex-wrap:wrap}
+.navlinks a{color:var(--muted);font-size:.95rem}
+.navlinks a:hover{color:var(--accent)}
+.hero{padding:95px 0 75px;text-align:center}
+.badge{display:inline-block;border:1px solid var(--line);padding:7px 12px;border-radius:999px;color:var(--accent);font-size:.9rem}
+h1{font-size:clamp(2.4rem,7vw,5rem);line-height:1.05;margin:18px 0 12px}
+.hero p{max-width:720px;margin:0 auto 28px;color:var(--muted);font-size:1.08rem}
+.btns{display:flex;justify-content:center;gap:12px;flex-wrap:wrap}
+.btn{padding:11px 18px;border-radius:10px;border:1px solid var(--line);background:var(--card);font-weight:700}
+.btn.primary{background:linear-gradient(90deg,var(--accent2),var(--accent));color:#08101e;border:0}
+section{padding:70px 0}
+.section-title{text-align:center;margin-bottom:35px}
+.section-title h2{font-size:2rem;margin:0 0 8px}
+.section-title p{color:var(--muted);margin:0}
+.about{max-width:780px;margin:auto;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:rgba(18,26,47,.9);border:1px solid var(--line);border-radius:16px;padding:24px;transition:.2s}
+.card:hover{transform:translateY(-4px);border-color:#46547b}
+.card h3{margin-top:0}
+.card p{color:var(--muted)}
+.card a{color:var(--accent);font-weight:700}
+.skills{display:flex;justify-content:center;gap:12px;flex-wrap:wrap}
+.skill{padding:10px 15px;border:1px solid var(--line);border-radius:999px;background:var(--card)}
+.goal{max-width:760px;margin:auto;text-align:center;color:var(--muted)}
+.contact{text-align:center}
+footer{border-top:1px solid var(--line);padding:28px 0;text-align:center;color:var(--muted)}
+@media(max-width:760px){.navbar{align-items:flex-start;gap:12px;flex-direction:column}.grid{grid-template-columns:1fr}.hero{padding-top:70px}.navlinks{gap:12px}}
+</style>
+</head>
+<body>
+<nav>
+<div class="container navbar">
+<div class="logo">P. Sanjay</div>
+<div class="navlinks">
+<a href="#about">About</a>
+<a href="#projects">Projects</a>
+<a href="#skills">Skills</a>
+<a href="#goal">Goal</a>
+<a href="#contact">Contact</a>
+</div>
+</div>
+</nav>
+
+<header class="hero">
+<div class="container">
+<span class="badge">3rd Semester • B.Tech CSE</span>
+<h1>P. Sanjay</h1>
+<p>Computer Science student building a strong foundation in programming, problem solving, databases, and AI/ML through coursework and practical GitHub projects.</p>
+<div class="btns">
+<a class="btn primary" href="#projects">View My Projects</a>
+<a class="btn" href="https://github.com/sanjaypindikoor9" target="_blank" rel="noopener">GitHub Profile</a>
+</div>
+</div>
+</header>
+
+<section id="about">
+<div class="container">
+<div class="section-title"><h2>About Me</h2><p>A short introduction</p></div>
+<div class="about">
+<p>I am P. Sanjay, a 3rd semester B.Tech Computer Science and Engineering student interested in programming, artificial intelligence and machine learning, databases, and problem solving. I am developing my technical foundation through coursework, coding practice, GitHub projects, and algorithmic problem solving.</p>
+<p>This portfolio presents selected learning artifacts and repositories from my academic journey. My goal is to keep improving my ability to turn programming concepts into useful, well-organized projects.</p>
+</div>
+</div>
+</section>
+
+<section id="projects">
+<div class="container">
+<div class="section-title"><h2>Projects & Learning</h2><p>My work on GitHub</p></div>
+<div class="grid">
+<article class="card">
+<h3>First-C-Program</h3>
+<p>My early programming practice repository, representing my work with C programming fundamentals and the progression toward structured problem solving.</p>
+<a href="https://github.com/sanjaypindikoor9/First-C-Program" target="_blank" rel="noopener">View Repository →</a>
+</article>
+<article class="card">
+<h3>LineEditor</h3>
+<p>A programming project repository that represents practical development work and experience organizing a project using GitHub.</p>
+<a href="https://github.com/sanjaypindikoor9/LineEditor" target="_blank" rel="noopener">View Repository →</a>
+</article>
+<article class="card">
+<h3>LeetCode Solutions</h3>
+<p>A collection documenting my algorithm and problem-solving practice. It helps me track progress and review different approaches to coding problems.</p>
+<a href="https://github.com/sanjaypindikoor9/leetcode-solutions" target="_blank" rel="noopener">View Repository →</a>
+</article>
+</div>
+</div>
+</section>
+
+<section id="skills">
+<div class="container">
+<div class="section-title"><h2>Skills</h2><p>Technologies and areas I am learning</p></div>
+<div class="skills">
+<span class="skill">AIML</span><span class="skill">Python</span><span class="skill">C++</span><span class="skill">SQL</span><span class="skill">Database</span>
+</div>
+</div>
+</section>
+
+<section id="goal">
+<div class="container">
+<div class="section-title"><h2>Learning & Career Goal</h2></div>
+<div class="goal">
+<p>My short-term goal is to strengthen my programming, data structures, algorithms, database, and AIML knowledge through consistent practice and projects. My longer-term goal is to build industry-relevant software and AIML projects, develop a strong GitHub portfolio, and prepare for internships and a career in technology.</p>
+</div>
+</div>
+</section>
+
+<section id="contact">
+<div class="container contact">
+<div class="section-title"><h2>Contact</h2><p>The best place to explore my work is GitHub.</p></div>
+<a class="btn primary" href="https://github.com/sanjaypindikoor9" target="_blank" rel="noopener">Visit My GitHub</a>
+</div>
+</section>
+
+<footer>
+<div class="container">© 2026 P. Sanjay • Portfolio Building B25CS0311</div>
+</footer>
+</body>
+</html>
